@@ -15,6 +15,7 @@ public class WishController {
 
 	@RequestMapping("home.htm")
 	public String showForm() {
+		//added comment 
 		return "welcome";
 	}
 
